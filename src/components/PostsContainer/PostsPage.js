@@ -14,7 +14,7 @@ const PostsPage = () => {
     <div className="posts-container-wrapper">
       {/* map through data here to return a Post and pass data as props to Post */}
       {
-        postsData.map((data, index) => <Post key={index} props={data} />)
+        postsData.map((data, index) => <Post key={index} post={data} />)
       }
       
     </div>
